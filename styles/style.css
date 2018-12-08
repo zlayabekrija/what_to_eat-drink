@@ -1,0 +1,102 @@
+html , body {
+    height: 100%;
+}
+
+.credits{
+    width: 100%;
+    height: 5vh;
+    background-color: red;
+}
+.container {
+    position: relative;
+}
+.navbar {
+    position: fixed;
+    width: 60vw;
+    height: 5vh;
+    left: 18%;
+    top: 5%;
+}
+.link{
+        float: left;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size:1.3em;
+    }
+.links {
+    display: flex;
+    height: 100%;
+    align-items: center;
+   
+}
+.btn,
+.bth:hover,
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    color: gray;
+    background-color: white;
+    border-radius: 5px ;
+}
+.head{
+    background: url(/images/chair-cutlery-diner-941861.jpg) 0px 90% no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100vh;
+    display: inline-block;
+}
+.starter {
+    background: url(/images/blur-breakfast-chef-262978.jpg) 0px 0px no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100vh;
+    display: inline-block;
+}
+.main-dish {
+    background: url(/images/asparagus-barbecue-bbq-675951.jpg) 0px 75% no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100vh;
+    display: inline-block;
+}
+.dessert {
+    background: url(/images/blur-cake-chocolate-954199.jpg) 0px 75% no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100vh;
+    display: inline-block;
+}
+.welcome {
+    width: 60vw;
+    height: 60vh;
+    background: url(http://i.stack.imgur.com/kb0Zm.jpg) 0px 0px no-repeat;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+    border-radius: 20px 0px;
+    opacity: .9;
+    box-shadow: 4px 4px wheat;
+    background-size: cover;
+
+}
+.food {
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+    float: left;
+}
+.drinks{
+    height: 60vh;
+    width: 20vw;
+    background-color: white;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.course{
+    height: 70%;
+    width: 75%;
+    margin: 20vh 10vw;
+}
