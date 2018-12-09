@@ -38,6 +38,7 @@ html , body {
     color: gray;
     background-color: white;
     border-radius: 5px ;
+    overflow: hidden;
 }
 .head{
     background: url(/images/chair-cutlery-diner-941861.jpg) 0px 90% no-repeat;
@@ -84,13 +85,15 @@ html , body {
     height: 60vh;
     width: 40vw;
     background-color: white;
-    float: left;
+    padding: 2%;
+    display: inline-block;
 }
 .drinks{
     height: 60vh;
     width: 20vw;
     background-color: white;
     float: right;
+    padding: 2%;
 }
 .clear{
     clear: both;
@@ -99,4 +102,21 @@ html , body {
     height: 70%;
     width: 75%;
     margin: 20vh 10vw;
+    
+}
+.dish-look,
+.cocktail {
+    height: 90%;
+    width: 100%;
+    margin: auto;
+}
+.cocktail-description,
+.dish-description {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top:1%; 
+    font-family:  'Great Vibes', Helvetica, sans-serif;
+    font-size: 1.5em;
 }
